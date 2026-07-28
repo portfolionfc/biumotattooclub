@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Biumo Tattoo Club Varese — tattoo, piercing, gems e abbigliamento. Scopri gli artisti, guarda i lavori e prenota su WhatsApp.">
+  <meta name="theme-color" content="#050505">
+  <meta property="og:title" content="Biumo Tattoo Club Varese">
+  <meta property="og:description" content="Art on skin. Passion in ink.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero.jpg">
+  <title>Biumo Tattoo Club Varese</title>
+  <link rel="icon" href="assets/logo-clean.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <div class="noise" aria-hidden="true"></div>
+
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.63a2 2 0 0 1-.45 2.11L8 9.73a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.85.3 1.73.5 2.63.62A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.08 0C5.53 0 .2 5.34.2 11.9c0 2.1.55 4.15 1.6 5.95L.1 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45h.01C18.64 23.8 24 18.46 24 11.9c0-3.18-1.24-6.16-3.5-8.4zM12.09 21.8h-.01a9.84 9.84 0 0 1-5.02-1.38l-.36-.21-3.74.98 1-3.64-.24-.37A9.86 9.86 0 0 1 2.2 11.9C2.2 6.44 6.64 2 12.1 2a9.8 9.8 0 0 1 7 2.9 9.82 9.82 0 0 1 2.9 7c0 5.46-4.45 9.9-9.91 9.9zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47a8.9 8.9 0 0 1-1.65-2.05c-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.08-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.3.18-1.42-.08-.12-.27-.2-.57-.35z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="m12 19 7-7 3 3-7 7-4 1zM18 13l-7-7 3-3 7 7M2 22l5-1-4-4-1 5z"/></symbol>
+    <symbol id="i-ring" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="5" r="2"/><path d="M12 19v3"/></symbol>
+    <symbol id="i-diamond" viewBox="0 0 24 24"><path d="m12 3 8 6-8 12L4 9l8-6zM4 9h16M8 4.5 10 9l2-6 2 6 2-4.5M10 9l2 12 2-12"/></symbol>
+    <symbol id="i-shirt" viewBox="0 0 24 24"><path d="M8 4 4 6l-2 5 4 2 1-2v10h10V11l1 2 4-2-2-5-4-2a4 4 0 0 1-8 0z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 1.3 3.7L17 8l-3.7 1.3L12 13l-1.3-3.7L7 8l3.7-1.3L12 3zM19 14l.8 2.2L22 17l-2.2.8L19 20l-.8-2.2L16 17l2.2-.8L19 14zM5 13l1 2.8L9 17l-3 1.2L5 21l-1-2.8L1 17l3-1.2L5 13z"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Biumo Tattoo Club — Home">
+      <img src="assets/logo-clean.png" width="132" height="135" alt="Biumo Tattoo Club">
+    </a>
+    <nav class="desktop-nav" aria-label="Navigazione principale">
+      <a class="active" href="#home">Home</a>
+      <a href="#servizi">Servizi</a>
+      <a href="#galleria">Galleria</a>
+      <a href="#artisti">Artisti</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Apri menu" aria-controls="mobileNav" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navigazione mobile" aria-hidden="true">
+      <a href="#home">Home</a>
+      <a href="#servizi">Servizi</a>
+      <a href="#galleria">Galleria</a>
+      <a href="#artisti">Artisti</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Varese · Via Merini 22</p>
+        <h1><span>Biumo</span> Tattoo Club</h1>
+        <p class="hero-sub">Tattoos ☆ Piercing ☆ Gems ☆ Abbigliamento</p>
+        <p class="tagline">Art on skin. Passion in ink.</p>
+        <div class="quick-actions" aria-label="Azioni rapide">
+          <a href="tel:+3903321760590">
+            <svg class="icon"><use href="#i-phone"></use></svg><span>Chiama</span>
+          </a>
+          <a href="https://wa.me/393321760590?text=Ciao%20Biumo%20Tattoo%20Club%2C%20vorrei%20informazioni" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use href="#i-whatsapp"></use></svg><span>WhatsApp</span>
+          </a>
+          <a href="#prenota">
+            <svg class="icon"><use href="#i-calendar"></use></svg><span>Prenota</span>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Via+Merini+22%2C+Varese" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use href="#i-map"></use></svg><span>Indicazioni</span>
+          </a>
+        </div>
+      </div>
+
+      <aside class="contact-panel reveal" id="contatti" aria-labelledby="contactTitle">
+        <h2 id="contactTitle">Info &amp; Contatti</h2>
+        <a href="#orari">
+          <svg class="icon"><use href="#i-clock"></use></svg>
+          <span><strong>Orari</strong>10:30–18:30<br>Dal lunedì al sabato</span>
+          <svg class="chevron"><use href="#i-chevron"></use></svg>
+        </a>
+        <a href="#servizi">
+          <svg class="icon"><use href="#i-ring"></use></svg>
+          <span><strong>Piercing</strong>Il lunedì<br>su appuntamento</span>
+          <svg class="chevron"><use href="#i-chevron"></use></svg>
+        </a>
+        <a href="https://wa.me/393321760590" target="_blank" rel="noopener noreferrer">
+          <svg class="icon"><use href="#i-whatsapp"></use></svg>
+          <span><strong>WhatsApp</strong>+39 332 176 0590</span>
+          <svg class="chevron"><use href="#i-chevron"></use></svg>
+        </a>
+        <a href="mailto:biumotattooclub@gmail.com">
+          <svg class="icon"><use href="#i-mail"></use></svg>
+          <span><strong>Email</strong>biumotattooclub@gmail.com</span>
+          <svg class="chevron"><use href="#i-chevron"></use></svg>
+        </a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Via+Merini+22%2C+Varese" target="_blank" rel="noopener noreferrer">
+          <svg class="icon"><use href="#i-map"></use></svg>
+          <span><strong>Indirizzo</strong>Via Merini 22<br>Varese, Italy</span>
+          <svg class="chevron"><use href="#i-chevron"></use></svg>
+        </a>
+      </aside>
+    </section>
+
+    <section class="studio-info section reveal" id="orari" aria-label="Informazioni dello studio">
+      <article>
+        <svg class="icon"><use href="#i-clock"></use></svg>
+        <div><span>Orari studio</span><strong>Lun–Sab · 10:30–18:30</strong></div>
+      </article>
+      <article>
+        <svg class="icon"><use href="#i-calendar"></use></svg>
+        <div><span>Appuntamenti</span><strong>Consulenza personalizzata</strong></div>
+      </article>
+      <article>
+        <svg class="icon"><use href="#i-sparkles"></use></svg>
+        <div><span>Standard</span><strong>Igiene e materiali di qualità</strong></div>
+      </article>
+    </section>
+
+    <section class="about section split-section">
+      <div class="about-copy reveal">
+        <p class="section-kicker">Chi siamo</p>
+        <h2>More than ink,<br><span>it’s a lifestyle.</span></h2>
+        <p>Biumo Tattoo Club è più di uno studio: è una famiglia. Passione, professionalità e creatività al servizio della tua idea.</p>
+        <button class="outline-btn" type="button" data-scroll="#servizi">Scopri i servizi <svg class="button-icon"><use href="#i-arrow"></use></svg></button>
+      </div>
+      <div class="about-art reveal">
+        <img src="assets/about-emblem.jpg" width="295" height="265" loading="lazy" decoding="async" alt="Artwork Biumo Tattoo Club">
+      </div>
+      <div class="team reveal" id="artisti">
+        <div class="section-title"><span></span><h2>Il nostro team</h2><span></span></div>
+        <div class="team-grid">
+          <article><img src="assets/team1.jpg" width="136" height="132" loading="lazy" decoding="async" alt="Mickynoir"><h3>Mickynoir</h3></article>
+          <article><img src="assets/team2.jpg" width="132" height="132" loading="lazy" decoding="async" alt="Frankie V"><h3>Frankie V</h3></article>
+          <article><img src="assets/team3.jpg" width="136" height="132" loading="lazy" decoding="async" alt="Donny"><h3>Donny</h3></article>
+          <article><img src="assets/team4.jpg" width="900" height="900" loading="lazy" decoding="async" alt="Icqueen"><h3>Icqueen</h3></article>
+        </div>
+        <a class="outline-btn" href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer">Conosci il team <svg class="button-icon"><use href="#i-instagram"></use></svg></a>
+      </div>
+    </section>
+
+    <section class="gallery-section section" id="galleria">
+      <div class="section-heading">
+        <div><p class="section-kicker">I nostri lavori</p><h2>Selected works</h2></div>
+        <button id="showAll" type="button" aria-expanded="false" aria-controls="galleryGrid">Vedi tutti <svg class="button-icon"><use href="#i-arrow"></use></svg></button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="gallery-item" type="button" data-full="assets/g1-large.jpg" aria-label="Apri foto: Tattoo colorato"><img src="assets/g1.jpg" width="117" height="160" loading="lazy" decoding="async" alt="Tattoo colorato"></button>
+        <button class="gallery-item" type="button" data-full="assets/g2-large.jpg" aria-label="Apri foto: Tattoo ritratto"><img src="assets/g2.jpg" width="123" height="160" loading="lazy" decoding="async" alt="Tattoo ritratto"></button>
+        <button class="gallery-item" type="button" data-full="assets/g3-large.jpg" aria-label="Apri foto: Tattoo blackwork"><img src="assets/g3.jpg" width="122" height="160" loading="lazy" decoding="async" alt="Tattoo blackwork"></button>
+        <button class="gallery-item" type="button" data-full="assets/g4-large.jpg" aria-label="Apri foto: Flash tattoo"><img src="assets/g4.jpg" width="123" height="160" loading="lazy" decoding="async" alt="Flash tattoo"></button>
+        <button class="gallery-item" type="button" data-full="assets/g5-large.jpg" aria-label="Apri foto: Tattoo occhio e rosa"><img src="assets/g5.jpg" width="117" height="160" loading="lazy" decoding="async" alt="Tattoo occhio e rosa"></button>
+        <button class="gallery-item" type="button" data-full="assets/g6-large.jpg" aria-label="Apri foto: Lettering tattoo"><img src="assets/g6.jpg" width="123" height="160" loading="lazy" decoding="async" alt="Lettering tattoo"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g7-large.jpg" aria-label="Apri foto: Tattoo orientale"><img src="assets/g7.jpg" width="122" height="160" loading="lazy" decoding="async" alt="Tattoo orientale"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g8-large.jpg" aria-label="Apri foto: Tattoo scorpione"><img src="assets/g8.jpg" width="123" height="160" loading="lazy" decoding="async" alt="Tattoo scorpione"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g9-large.jpg" aria-label="Apri foto: Manica tattoo realistica in bianco e nero"><img src="assets/g9.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Manica tattoo realistica in bianco e nero"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g10-large.jpg" aria-label="Apri foto: Ritratto realistico in bianco e nero"><img src="assets/g10.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Ritratto realistico in bianco e nero"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g11-large.jpg" aria-label="Apri foto: Tattoo realistico di un occhio"><img src="assets/g11.jpg" width="633" height="720" loading="lazy" decoding="async" alt="Tattoo realistico di un occhio"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g12-large.jpg" aria-label="Apri foto: Tattoo tradizionale con serpente e teschio"><img src="assets/g12.jpg" width="631" height="720" loading="lazy" decoding="async" alt="Tattoo tradizionale con serpente e teschio"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g13-large.jpg" aria-label="Apri foto: Tattoo tradizionale con pugnale e pantera"><img src="assets/g13.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Tattoo tradizionale con pugnale e pantera"></button>
+        <button class="gallery-item extra" type="button" data-full="assets/g14-large.jpg" aria-label="Apri foto: Tattoo realistico ispirato a Peaky Blinders"><img src="assets/g14.jpg" width="542" height="720" loading="lazy" decoding="async" alt="Tattoo realistico ispirato a Peaky Blinders"></button>
+      </div>
+    </section>
+
+    <section class="services-reviews section split-section" id="servizi">
+      <div class="services reveal">
+        <div class="section-title"><span></span><h2>I nostri servizi</h2><span></span></div>
+        <div class="service-grid" role="group" aria-label="Seleziona un servizio">
+          <button class="active" type="button" data-service="Tattoos" aria-pressed="true"><svg class="icon"><use href="#i-pen"></use></svg><span>Tattoos</span></button>
+          <button type="button" data-service="Piercing" aria-pressed="false"><svg class="icon"><use href="#i-ring"></use></svg><span>Piercing</span></button>
+          <button type="button" data-service="Gems" aria-pressed="false"><svg class="icon"><use href="#i-diamond"></use></svg><span>Gems</span></button>
+          <button type="button" data-service="Abbigliamento" aria-pressed="false"><svg class="icon"><use href="#i-shirt"></use></svg><span>Abbigliamento</span></button>
+        </div>
+        <div class="service-detail" aria-live="polite">
+          <div><strong>Tattoos</strong><p>Progetti personalizzati, consulenza artistica e massima attenzione a igiene e precisione.</p></div>
+          <button type="button" class="service-book" data-book-service="Tattoo">Prenota <svg class="button-icon"><use href="#i-arrow"></use></svg></button>
+        </div>
+      </div>
+
+      <div class="reviews reveal" id="recensioni">
+        <div class="section-title"><span></span><h2>Dicono di noi</h2><span></span></div>
+        <div class="review-grid">
+          <article><div aria-label="5 stelle su 5">★★★★★</div><p>Professionalità e igiene al top. Ogni tatuaggio è un capolavoro!</p><strong>— Andrea R.</strong></article>
+          <article><div aria-label="5 stelle su 5">★★★★★</div><p>Ambiente unico e ragazzi veramente competenti. Super consigliato!</p><strong>— Martina F.</strong></article>
+          <article><div aria-label="5 stelle su 5">★★★★★</div><p>Il mio studio di fiducia da anni. Non cambierei mai!</p><strong>— Luca B.</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" id="prenota">
+      <div class="booking-card reveal">
+        <div>
+          <p class="section-kicker">Prenota</p>
+          <h2>Parlaci della tua idea</h2>
+          <p>Compila il modulo: si aprirà WhatsApp con il messaggio già pronto.</p>
+        </div>
+        <form id="bookingForm" novalidate>
+          <label for="name">Nome<input id="name" name="name" type="text" minlength="2" maxlength="70" autocomplete="name" required></label>
+          <label for="phone">Telefono<input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="24" placeholder="+39 ..." required></label>
+          <label for="service">Servizio<select id="service" name="service" autocomplete="off" required><option value="">Seleziona un servizio</option><option value="Tattoo">Tattoo</option><option value="Piercing">Piercing</option><option value="Gems">Gems</option><option value="Abbigliamento">Abbigliamento</option></select></label>
+          <label for="artist">Artista preferito<select id="artist" name="artist" autocomplete="off" required><option value="">Seleziona un artista</option><option value="Mickynoir">Mickynoir</option><option value="Frankie V">Frankie V</option><option value="Donny">Donny</option><option value="Icqueen">Icqueen</option><option value="Nessuna preferenza">Nessuna preferenza</option></select></label>
+          <label class="full" for="message">Messaggio<textarea id="message" name="message" rows="4" minlength="8" maxlength="900" placeholder="Descrivi la tua idea, lo stile e la zona del corpo..." required></textarea></label>
+          <label class="form-honeypot" for="website" aria-hidden="true">Sito web<input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></label>
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <button type="submit" data-default-label="Prenota su WhatsApp">Prenota su WhatsApp <svg class="button-icon"><use href="#i-whatsapp"></use></svg></button>
+        </form>
+      </div>
+    </section>
+
+    <section class="instagram section">
+      <div class="section-heading">
+        <div><p class="section-kicker">Seguici su Instagram</p><h2>@biumotattooclub</h2></div>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer">Apri Instagram <svg class="button-icon"><use href="#i-instagram"></use></svg></a>
+      </div>
+      <div class="insta-strip">
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta1.jpg" width="720" height="960" loading="lazy" decoding="async" alt="Tattoo tradizionale pubblicato da Biumo Tattoo Club"></a>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta2.jpg" width="810" height="1080" loading="lazy" decoding="async" alt="Ritratto tattoo pubblicato da Biumo Tattoo Club"></a>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta3.jpg" width="810" height="1080" loading="lazy" decoding="async" alt="Manica tattoo pubblicata da Biumo Tattoo Club"></a>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta4.jpg" width="1014" height="1080" loading="lazy" decoding="async" alt="Flash tattoo pubblicati da Biumo Tattoo Club"></a>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta5.jpg" width="810" height="1080" loading="lazy" decoding="async" alt="Tattoo occhio, orologio e rosa pubblicato da Biumo Tattoo Club"></a>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta6.jpg" width="810" height="1080" loading="lazy" decoding="async" alt="Lettering tattoo pubblicato da Biumo Tattoo Club"></a>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta7.jpg" width="810" height="1080" loading="lazy" decoding="async" alt="Tattoo realistico con occhio e rosa pubblicato da Biumo Tattoo Club"></a>
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Apri il profilo Instagram di Biumo Tattoo Club"><img src="assets/insta8.jpg" width="894" height="1080" loading="lazy" decoding="async" alt="Lettering su braccio pubblicato da Biumo Tattoo Club"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="footer-logo" href="#home" aria-label="Biumo Tattoo Club — Torna alla home">
+          <img src="assets/logo-clean.png" width="512" height="512" loading="lazy" decoding="async" alt="Biumo Tattoo Club">
+        </a>
+        <div class="footer-brand-copy">
+          <h2>Biumo Tattoo Club</h2>
+          <p>Art on skin. Passion in ink.</p>
+          <span>Varese · Via Merini 22</span>
+        </div>
+      </div>
+
+      <nav class="footer-links" aria-label="Link rapidi">
+        <h3>Esplora</h3>
+        <a href="#servizi">Servizi</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#artisti">Artisti</a>
+        <a href="#prenota">Prenota</a>
+      </nav>
+
+      <div class="footer-contact">
+        <h3>Contatti</h3>
+        <a href="tel:+3903321760590"><svg class="inline-icon"><use href="#i-phone"></use></svg><span>0332 1760590</span></a>
+        <a href="mailto:biumotattooclub@gmail.com"><svg class="inline-icon"><use href="#i-mail"></use></svg><span>biumotattooclub@gmail.com</span></a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Via+Merini+22%2C+Varese" target="_blank" rel="noopener noreferrer"><svg class="inline-icon"><use href="#i-map"></use></svg><span>Via Merini 22, Varese</span></a>
+        <div class="footer-hours"><svg class="inline-icon"><use href="#i-clock"></use></svg><span>10:30–18:30 · Lun–Sab</span></div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">© <span id="year"></span> Biumo Tattoo Club Varese. Tutti i diritti riservati.</p>
+      <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/biumotattooclub/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="inline-icon"><use href="#i-instagram"></use></svg><span>Instagram</span></a>
+        <a href="https://wa.me/393321760590" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg class="inline-icon"><use href="#i-whatsapp"></use></svg><span>WhatsApp</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Anteprima galleria" aria-hidden="true">
+    <div class="lightbox-shell">
+      <div class="lightbox-topbar">
+        <span class="lightbox-counter" aria-live="polite"></span>
+        <button class="lightbox-close" type="button" aria-label="Chiudi anteprima">×</button>
+      </div>
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Foto precedente">‹</button>
+      <figure>
+        <div class="lightbox-stage"><img alt=""></div>
+        <figcaption></figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Foto successiva">›</button>
+    </div>
+  </div>
+
+  <a class="floating-whatsapp" href="https://wa.me/393321760590?text=Ciao%20Biumo%20Tattoo%20Club%2C%20vorrei%20informazioni" target="_blank" rel="noopener noreferrer" aria-label="Contatta Biumo Tattoo Club su WhatsApp">
+    <svg><use href="#i-whatsapp"></use></svg>
+  </a>
+  <button class="to-top" type="button" aria-label="Torna su"><svg><use href="#i-up"></use></svg></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
